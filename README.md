@@ -18,8 +18,7 @@
 4. Reduced output to sort with -nr flag 
 most duplicates to bubble up to the top
 ``` tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr ```
-5. Redirect the output to result.txt 
-the output will be redirected to the result.txt.
+5. Redirect the output to result.txt. After executing this command the result will send to the new file result.txt
 ``` tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr > result.txt ```
 6. When we hit the up arrow in bash it will get the previous command we have used.
 <!--7. -n means numeric-value (it compares according to string numeric value)
@@ -29,7 +28,7 @@ the output will be redirected to the result.txt.
 
 
 ## Understand Important Bash commands (>, >>, |, cat)
-1. ls > filelist.txt to redirect the contents of your directory into a file. list of contents in the directory is saved to the filelist.txt
-2. ls >> filelist.txt it appends lists of contents rather than overwriting the contents.
-3. ls > temp.txt it sends the results to a new file temp.txt.
+1. ```ls > filelist.txt``` to redirect the contents of your directory into a file. list of contents in the directory is saved to the filelist.txt
+2. ```ls >> filelist.txt``` it appends lists of contents to the file rather than overwriting the data.
+3. ```ls > temp.txt``` it sends the results to a new file temp.txt.
 4. cat temp.txt it displays the content of the temp.txt.
