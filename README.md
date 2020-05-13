@@ -3,9 +3,9 @@
 ## Retrieve Text with curl
 1. [url](https://en.wikipedia.org/wiki/Node.js)
 2. This curl command is used to retrieve the page text
-``` curl "url" ```
+``` curl "https://en.wikipedia.org/wiki/Node.js" ```
 3. This curl command is used to return the page text and output to a file
-``` curl "url" -O data.txt```
+``` curl "https://en.wikipedia.org/wiki/Node.js" -O data.txt```
 
 ## Process Text Data
 
